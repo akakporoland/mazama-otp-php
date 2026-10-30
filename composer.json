@@ -1,6 +1,6 @@
 {
     "name": "mazama/otp",
-    "description": "Envoie et vérifie des codes OTP par WhatsApp via le service mazama-otp.",
+    "description": "Envoi et vérifie des codes OTP par WhatsApp via le service mazama-otp.",
     "type": "library",
     "license": "MIT",
     "require": {
