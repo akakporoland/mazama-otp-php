@@ -1,0 +1,27 @@
+{
+    "name": "mazama/otp",
+    "description": "Envoie et vérifie des codes OTP par WhatsApp via le service mazama-otp.",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "illuminate/http": "^11.0|^12.0|^13.0",
+        "illuminate/support": "^11.0|^12.0|^13.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0|^12.0"
+    },
+    "autoload": {
+        "psr-4": { "Mazama\\Otp\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Mazama\\Otp\\Tests\\": "tests/" }
+    },
+    "extra": {
+        "laravel": {
+            "providers": ["Mazama\\Otp\\OtpServiceProvider"],
+            "aliases": { "Otp": "Mazama\\Otp\\Otp" }
+        }
+    },
+    "minimum-stability": "stable"
+}
