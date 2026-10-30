@@ -14,8 +14,8 @@ Tant que le paquet n'est pas sur Packagist, ajoute d'abord dans ton `composer.js
 ## Configuration
 Dans ton `.env`, avec les valeurs données par l'administrateur :
 ```
-MAZAMA_OTP_URL=https://otp.akakporoland.it/api/v1
-MAZAMA_OTP_TOKEN=mzm_xxxxxxxxxxxxxxxx
+MAZENDA_URL=https://otp.akakporoland.it/api/v1
+MAZENDA_TOKEN=mzm_xxxxxxxxxxxxxxxx
 ```
 
 ## Utilisation

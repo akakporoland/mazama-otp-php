@@ -42,7 +42,7 @@ class Client
     private function post(string $path, array $data): Response
     {
         if ($this->url === '' || $this->token === '') {
-            throw new InvalidTokenException('MAZAMA_OTP_URL ou MAZAMA_OTP_TOKEN manquant dans le .env.');
+            throw new InvalidTokenException('MAZENDA_URL ou MAZENDA_TOKEN manquant dans le .env.');
         }
 
         try {
